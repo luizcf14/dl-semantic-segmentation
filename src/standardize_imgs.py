@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import math
-import gdal
+from osgeo import gdal
 import numpy as np
 import multiprocessing
 import os
